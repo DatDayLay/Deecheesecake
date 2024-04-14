@@ -1,0 +1,206 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Bricolage+Grotesque&family=Exo:wght@600&family=Gasoek+One&family=Inika:wght@400;700&family=Inter:wght@100..900&family=Pirata+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway&family=Reem+Kufi+Fun:wght@400;500;600;700&display=swap");
+.navbar {
+  width: 100%;
+  display: flex;
+  height: fit-content;
+
+  background: #fff8e1;
+}
+
+.brand {
+  width: 140px;
+  height: 140px;
+  background: #fff8e1;
+  margin: 0;
+  margin-left: 10%;
+}
+
+.menu {
+  width: fit-content;
+  display: flex;
+  list-style: none;
+  align-items: center;
+  background: rgba(111, 68, 54, 0.8);
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+}
+.menu li {
+  padding: 0.8rem;
+}
+.link {
+  font-family: "Inter", serif;
+  color: #fff;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  cursor: pointer;
+  background: none;
+}
+.toggle {
+  display: none;
+}
+.navbar h4 {
+  width: fit-content;
+  height: fit-content;
+  padding: 8px 16px;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-right: 5%;
+  color: #523728;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  border-radius: 38px;
+  border: 2px solid #523728;
+}
+.navbar h4:hover {
+  border: 2px solid rgb(211, 206, 206);
+  background: #523728;
+  color: #fff;
+  cursor: pointer;
+}
+.sign {
+  text-decoration: none;
+  color: #523728;
+}
+.navbar h4:hover > .sign {
+  color: #fff8e1;
+}
+.navmob {
+  display: none;
+}
+
+@media screen and (min-width: 320px) and (max-width: 720px) {
+  .toggle {
+    display: block;
+    position: fixed;
+    right: 2%;
+    top: 2%;
+    z-index: 100;
+  }
+  .menu {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    height: 60vh;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    border-radius: 10px;
+    background: rgba(111, 68, 54, 0.8);
+  }
+  .menu li {
+    padding: 10px;
+    background: none;
+    margin-bottom: 5%;
+    margin-left: 0;
+    margin-right: auto;
+  }
+  .menu li:hover {
+    border-bottom: 1px solid #fff;
+  }
+  .navbar {
+    display: none;
+  }
+  .navmob {
+    width: 100%;
+    background: #fff8e1;
+    z-index: 1;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+  }
+  .brand {
+    margin: 0;
+
+    background: none;
+  }
+  .navbar nav {
+    background: none;
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    display: none;
+  }
+  .navmob nav {
+    background: none;
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+  }
+  .navmob h4 {
+    width: fit-content;
+    height: fit-content;
+    padding: 8px 16px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: auto;
+    margin-left: auto;
+    color: #523728;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border-radius: 38px;
+    border: 2px solid #523728;
+  }
+  .navmob h4:hover {
+    border: 2px solid rgb(211, 206, 206);
+    background: #523728;
+    color: #fff;
+    cursor: pointer;
+  }
+  .sign {
+    text-decoration: none;
+    color: #523728;
+  }
+  .navmob h4:hover > .sign {
+    color: #fff8e1;
+  }
+  .link {
+    background: none;
+  }
+  .inactive {
+    display: none;
+  }
+}
+@media screen and (min-width: 721px) and (max-width: 920px) {
+  .navbar {
+    background: #fff8e1;
+    width: 100%;
+    display: flex;
+  }
+  .brand {
+    width: 100px;
+    height: 100px;
+    background: #fff8e1;
+    margin: 0;
+    margin-left: 8%;
+  }
+  .menu li {
+    padding: 0.8rem;
+  }
+  .navbar h4 {
+    width: fit-content;
+    height: fit-content;
+    padding: 4px 8px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 3%;
+    color: #523728;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border-radius: 38px;
+    border: 2px solid #523728;
+  }
+}

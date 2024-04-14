@@ -1,0 +1,248 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Bricolage+Grotesque&family=Exo:wght@600&family=Gasoek+One&family=Inika:wght@400;700&family=Inter:wght@100..900&family=Pirata+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway&family=Reem+Kufi+Fun:wght@400;500;600;700&display=swap");
+
+.about {
+  display: flex;
+  width: 100%;
+  height: fit-content;
+  background: #fff8e1;
+}
+.about section {
+  width: 50%;
+}
+.about section img {
+  width: 70%;
+  height: 99%;
+  margin-top: -6%;
+  margin-left: 12%;
+}
+.about section:last-of-type h2 {
+  color: #523728;
+  font-family: "Inika", serif;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.about section:last-of-type h4 {
+  color: rgba(27, 11, 11, 0.75);
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.about section:last-of-type p:first-of-type {
+  color: rgba(0, 0, 0, 0.7);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 65%;
+}
+.about section:last-of-type p:last-of-type {
+  color: rgba(0, 0, 0, 0.7);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 65%;
+}
+.about section:last-of-type button {
+  padding: 10px;
+  cursor: pointer;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%;
+  border-radius: 100px;
+  border: none;
+  background: #6a4028;
+}
+.about section:last-of-type button:hover {
+  background: #fff8e1;
+  color: #220404;
+  border: 1px solid #220404;
+}
+@media screen and (min-width: 320px) and (max-width: 619px) {
+  .about {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: fit-content;
+    background: #fff8e1;
+  }
+  .about section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .about section img {
+    width: 60%;
+    height: 60%;
+
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .about section:last-of-type h2 {
+    color: #523728;
+    font-family: "Inika", serif;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: fit-content;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .about section:last-of-type h4 {
+    color: rgba(27, 11, 11, 0.75);
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: fit-content;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .about section:last-of-type p:first-of-type {
+    color: rgba(0, 0, 0, 0.7);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 90%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .about section:last-of-type p:last-of-type {
+    color: rgba(0, 0, 0, 0.7);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 60%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .about section:last-of-type button {
+    width: fit-content;
+    padding: 12px;
+    cursor: pointer;
+    color: #fff;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+    border-radius: 100px;
+    border: none;
+    background: #6a4028;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (min-width: 620px) and (max-width: 720px) {
+  .about section:first-of-type {
+    width: 40%;
+    display: flex;
+  }
+  .about section:last-of-type {
+    width: 60%;
+  }
+
+  .about section img {
+    width: 70%;
+    height: 70%;
+
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+  }
+  .about section:last-of-type h2 {
+    color: #523728;
+    font-family: "Inika", serif;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+
+    margin-top: 12%;
+  }
+  .about section:last-of-type h4 {
+    color: #523728;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+
+    margin-top: 10%;
+    font-family: Poppins;
+  }
+  .about section:last-of-type p:first-of-type {
+    color: rgba(0, 0, 0, 0.7);
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 90%;
+    text-align: left;
+  }
+  .about section:last-of-type p:last-of-type {
+    color: rgba(0, 0, 0, 0.7);
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 90%;
+    text-align: left;
+  }
+  .about section:last-of-type button {
+    width: fit-content;
+    padding: 12px;
+    cursor: pointer;
+    color: #fff;
+    font-family: Poppins;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+    border-radius: 100px;
+    border: none;
+    background: #6a4028;
+  }
+}
+@media screen and (min-width: 721px) and (max-width: 1099px) {
+  .about section:last-of-type h2 {
+    font-size: 40px;
+    width: 90%;
+    margin-bottom: 0;
+  }
+  .about section:last-of-type h4 {
+    font-size: 20px;
+  }
+  .about section:last-of-type p:first-of-type {
+    width: 90%;
+    font-size: 14px;
+  }
+  .about section:last-of-type p:last-of-type {
+    width: 90%;
+    font-size: 14px;
+  }
+}

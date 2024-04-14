@@ -1,0 +1,25 @@
+{
+  "cakes": [
+    {
+      "id": 1,
+      "name": "Blueberry Cheesecake",
+      "description": "Blueberry love, cheesecake delight!",
+      "price": 9.0,
+      "img": "blueberry.png"
+    },
+    {
+      "id": 2,
+      "name": "Biscoff Cheesecake",
+      "description": "Biscoff adores cheesecake magic",
+      "price": 11.0,
+      "img": "biscoff.png"
+    },
+    {
+      "id": 3,
+      "name": "Chocolate Cheesecake",
+      "description": "Cherish Chocolate, relish cheesecake magic!",
+      "price": 10.0,
+      "img": "choc.png"
+    }
+  ]
+}

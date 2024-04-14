@@ -1,0 +1,339 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Bricolage+Grotesque&family=Exo:wght@600&family=Gasoek+One&family=Inika:wght@400;700&family=Inter:wght@100..900&family=Outfit:wght@100..900&family=Pirata+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway&family=Recursive:wght@300..1000&family=Reem+Kufi+Fun:wght@400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+.contact {
+  width: 100%;
+  display: flex;
+  height: fit-content;
+  background: #fff8e1;
+}
+.contact section {
+  width: 50%;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  background: #fff8e1;
+  justify-content: space-evenly;
+}
+.contact section h2 {
+  color: #734b33;
+  font-family: Inika;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: 22%;
+  width: fit-content;
+}
+.contact section p:first-of-type {
+  color: #734b33;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 31px;
+
+  width: 55%;
+  text-align: left;
+  margin-left: 22%;
+  margin-top: -6%;
+}
+.contact section img {
+  width: 40%;
+  height: 40%;
+  margin: 0;
+  margin-left: 20%;
+  margin-top: -3%;
+  /* background: #000; */
+}
+.contact section aside {
+  width: 40%;
+  display: flex;
+  background: #fff8e1;
+  justify-content: space-evenly;
+  margin: 0;
+  margin-left: 20%;
+  margin-top: 5%;
+}
+
+.contact section svg {
+  width: 20px;
+  height: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+}
+.contact section li {
+  background: #fff8e1;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  display: flex;
+  border-radius: 50%;
+}
+.contact section p:last-of-type {
+  color: #734b33;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-left: 22%;
+}
+.contact section aside .icon:first-of-type li:hover {
+  background: #1877f2;
+}
+.contact section aside .icon:first-of-type li:hover > svg path {
+  fill: white;
+  stroke: white;
+}
+.contact section aside .icon:nth-of-type(2) li:hover {
+  background: radial-gradient(
+      circle farthest-corner at 35% 90%,
+      #fec564,
+      transparent 50%
+    ),
+    radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%),
+    radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%),
+    radial-gradient(
+      ellipse farthest-corner at 20% -50%,
+      #5258cf,
+      transparent 50%
+    ),
+    radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%),
+    radial-gradient(
+      ellipse farthest-corner at 60% -20%,
+      #893dc2,
+      transparent 50%
+    ),
+    radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent),
+    linear-gradient(
+      #6559ca,
+      #bc318f 30%,
+      #e33f5f 50%,
+      #f77638 70%,
+      #fec66d 100%
+    );
+}
+.contact section aside .icon:nth-of-type(2) li:hover > svg path {
+  stroke: white;
+}
+.contact section aside .icon:nth-of-type(3) li:hover {
+  background: rgb(218, 215, 215);
+}
+.contact section aside .icon:nth-of-type(3) li:hover > svg {
+  fill: #1da1f2;
+}
+.contact section aside .icon:nth-of-type(3) li:hover > svg path {
+  stroke: #1da1f2;
+}
+.contact section aside .icon:nth-of-type(4) li:hover {
+  background: #282828;
+}
+.contact section aside .icon:nth-of-type(4) li:hover > svg {
+  fill: #ff0000;
+}
+.contact section aside .icon:nth-of-type(4) li:hover > svg path:first-of-type {
+  fill: #ff0000;
+}
+.contact section aside .icon:nth-of-type(4) li:hover > svg path:last-of-type {
+  fill: #ffffff;
+}
+.contact section:last-of-type {
+  background: #fff8e1;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+}
+.contact section:last-of-type form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background: #fff8e1;
+  height: 60vh;
+  justify-content: space-evenly;
+  margin-top: 12%;
+}
+.contact section:last-of-type form .name {
+  border-radius: 60px;
+  background: #fff;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.26);
+  width: 40%;
+  height: 50px;
+  flex-shrink: 0;
+  border: none;
+  outline: none;
+  padding-left: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.contact section:last-of-type form .mail {
+  border-radius: 60px;
+  background: #fff;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.26);
+  width: 40%;
+  height: 50px;
+  flex-shrink: 0;
+  border: none;
+  outline: none;
+  padding-left: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.contact section:last-of-type form .memo {
+  border: none;
+  outline: none;
+  margin-left: auto;
+  margin-right: auto;
+  height: 150px;
+  width: 40%;
+  border-radius: 26px;
+  background: #fff;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.34);
+  resize: none;
+  padding-left: 2%;
+  padding-top: 2%;
+}
+
+.contact section:last-of-type form button {
+  border-radius: 60px;
+  background: #ffc468;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  border: none;
+  color: #000;
+  text-align: center;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 40%;
+  height: 10%;
+  cursor: pointer;
+  margin-left: auto;
+  margin-right: auto;
+  transition: 2s ease;
+}
+
+.contact section:last-of-type form button:hover {
+  background: rgb(243, 179, 76);
+  color: #282828;
+}
+.contact section:last-of-type .back {
+  background: #6a4028;
+  width: fit-content;
+  height: fit-content;
+  border-radius: 20%;
+  cursor: pointer;
+  margin-left: auto;
+  margin-right: 5%;
+}
+.contact section:last-of-type .back svg {
+  width: 20px;
+  height: 20px;
+}
+.contact section:last-of-type .back:hover {
+  background: #fff;
+  border: 1px solid #6a4028;
+}
+.contact section:last-of-type .back:hover > svg path {
+  stroke: #6a4028;
+}
+.contact section:last-of-type form button:disabled {
+  background: grey;
+  color: #fff8e1;
+}
+@media screen and (min-width: 320px) and (max-width: 720px) {
+  .contact {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .contact section {
+    width: 100%;
+  }
+  .contact section h2 {
+    font-size: 32px;
+    margin-left: 0;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .contact section p:first-of-type {
+    font-size: 12px;
+    width: 60%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -4%;
+  }
+  .contact section img {
+    width: 40%;
+    height: 40%;
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -3%;
+  }
+  .contact section aside {
+    width: 100%;
+    display: flex;
+    background: #fff8e1;
+    justify-content: space-evenly;
+    margin: 0;
+    margin-left: 0%;
+    margin-top: 5%;
+  }
+  .contact section p:last-of-type {
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+  }
+  .contact section:last-of-type form .name {
+    width: 60%;
+  }
+  .contact section:last-of-type form .mail {
+    width: 60%;
+  }
+  .contact section:last-of-type form .memo {
+    width: 60%;
+  }
+  .contact section:last-of-type form button {
+    font-size: 14px;
+  }
+}
+@media screen and (min-width: 721px) and (max-width: 1050px) {
+  .contact section h2 {
+    font-size: 32px;
+    margin-top: 15%;
+  }
+  .contact section p:first-of-type {
+    font-size: 12px;
+    margin-top: 2%;
+  }
+  .contact section p:last-of-type {
+    font-size: 10px;
+  }
+  .contact section:last-of-type form .name {
+    width: 60%;
+  }
+  .contact section:last-of-type form .mail {
+    width: 60%;
+  }
+  .contact section:last-of-type form .memo {
+    width: 60%;
+  }
+  .contact section:last-of-type form button {
+    font-size: 14px;
+  }
+  .contact section aside {
+    width: 60%;
+    display: flex;
+    background: #fff8e1;
+    justify-content: space-evenly;
+    margin-left: 14%;
+  }
+}

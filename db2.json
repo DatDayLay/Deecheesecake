@@ -1,0 +1,25 @@
+{
+  "blogs": [
+    {
+      "img": "Blog1.png",
+      "title": "23 Nov, 2023 / Cheesecake",
+      "header": "A Peek Behind the Cheesecake Curtain",
+      "text": "Step into our cheesecake haven, where the magic unfolds behind the scenes, whisking dreams into reality. Our kitchen is a symphony and very...",
+      "btn": "Read More"
+    },
+    {
+      "img": "Blog2.png",
+      "title": "18 July, 2023 / Cheesecake",
+      "header": "Low-Sugar & Gluten-Free Cheesecakes",
+      "text": "Welcome to our guilt-free indulgence zone, where we're redefining the art of cheesecake with our delectable low-sugar...",
+      "btn": "Read More"
+    },
+    {
+      "img": "Blog3.png",
+      "title": "1 January, 2024 / Cheesecake",
+      "header": "Sweet Words - Customer Reviews of Cheesecakes",
+      "text": "Indulge in the rich tapestry of heartfelt stories within 'Sweet Words'. This curated collection of customer reviews offers a glimpse into the joy...",
+      "btn": "Read More"
+    }
+  ]
+}

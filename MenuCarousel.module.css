@@ -1,0 +1,94 @@
+.carousel {
+  overflow: hidden;
+  background: #fff8e1;
+  border-radius: 10px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 0;
+  display: block;
+}
+.carousel h2 {
+  text-align: center;
+  text-align: center;
+  color: #734b33;
+  font-family: Inika;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.cakeCar {
+  width: 70%;
+  background: #fff8e1;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 10%;
+  border-radius: 10px;
+  box-shadow: -2px -9px 42px 0px rgba(77, 66, 44, 0.21),
+    2px 9px 42px 0px rgba(77, 66, 44, 0.21);
+  z-index: 0;
+}
+.cakeCar section {
+  background: #fff8e1;
+  display: flex;
+  flex-direction: column;
+  z-index: 0;
+}
+.slider {
+  z-index: 0;
+}
+.cakeCar section img {
+  width: 50%;
+  height: 50%;
+}
+.cakeCar section h3 {
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  color: #1d2729;
+  font-family: Inika;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.cakeCar section p {
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  color: #555;
+  font-family: Recursive;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: fit-content;
+}
+.cakeCar section aside {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.cakeCar section aside h5 {
+  color: #745545;
+  font-family: Inter;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-left: 5%;
+}
+.cakeCar section aside h5 span {
+  font-family: Inter;
+  font-size: 18px;
+  color: #53a623;
+}
+.cakeCar section aside h6 {
+  margin-top: auto;
+  margin-bottom: auto;
+  font-size: 25px;
+  color: #734b33;
+  font-family: Inter;
+  margin-right: 5%;
+}
